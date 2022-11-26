@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    align-items: center;
+    background-color: crimson;
+    text-align: justify;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 800px;
+}
