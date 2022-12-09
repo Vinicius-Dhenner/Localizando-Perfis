@@ -1,11 +1,26 @@
 .container {
-    display: grid;
+    display: flex;
     align-items: center;
-    background-color: crimson;
-    text-align: justify;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    width: 800px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#caixa {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#caixa img {
+    height: 90%;
+    width: 90%;
+}
+
+
+#caixa p {
+    margin-top: 3px;
+    color: black
 }
